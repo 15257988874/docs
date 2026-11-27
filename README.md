@@ -18,6 +18,17 @@
 
 适合：新项目选型、团队技术栈落地。
 
+### [工程化指南](工程化指南.md)
+
+包管理、Monorepo 与版本发布的选型与落地。
+
+- npm / pnpm / Yarn / Bun 的差异与版本锁定
+- pnpm workspace、Turborepo、Nx 的任务编排
+- Changesets / semantic-release / release-please 的发布模型
+- 从零搭建 pnpm + Turborepo + Changesets 的完整配方
+
+适合：Monorepo 选型、多包版本与发布流程落地。
+
 ### [AI 初始化指南](AI初始化指南.md)
 
 给项目接入 AI 编码代理的完整流程。
@@ -58,6 +69,7 @@
 docs/
 ├── README.md
 ├── 项目初始化指南.md
+├── 工程化指南.md
 └── AI初始化指南.md
 ```
 
